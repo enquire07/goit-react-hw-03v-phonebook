@@ -9,13 +9,13 @@ export const Filter = ({ filter, setFilter }) => {
 
   return (
     <div className={css.container}>
-      {/* <input
+      <input
         type="text"
         name="filter"
         placeholder="Search by name"
         value={filter}
         onChange={handleFilterChange}
-      /> */}
+      />
     </div>
   );
 };
