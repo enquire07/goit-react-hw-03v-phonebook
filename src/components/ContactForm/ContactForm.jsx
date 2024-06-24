@@ -90,10 +90,10 @@ export class ContactForm extends Component {
             value={number}
             onChange={this.handleNumberChange}
           />
+          <button className={css.formButton} type="submit">
+            Add Contact
+          </button>
         </label>
-        <button className={css.formButton} type="submit">
-          Add Contact
-        </button>
       </form>
     );
   }
